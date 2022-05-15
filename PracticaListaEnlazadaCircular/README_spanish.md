@@ -1,6 +1,6 @@
 # Lista Enlazada Circular
 
-Proyecto con programacion orientada a objetos con la estructura de datos lista enlazada circular como template
+Proyecto con programacion orientada a objetos con la estructura de datos lista enlazada circular como template.
 
 ## Funcionalidades
 - Usa programacion orientada a objetos
