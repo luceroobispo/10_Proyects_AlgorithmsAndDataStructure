@@ -1,6 +1,6 @@
-# Proyectos de servicio al cliente
+# Proyectos
 
-Videojuegos realizados con windows form en el editor Visual Studio 2022, con el lenguaje de programación C++.
+Programas realizados en el editor Visual Studio 2022, con el lenguaje de programación C++.
 Se uso programación orientada a objetos.
 
 ## Algoritmos y Estructura de datos
