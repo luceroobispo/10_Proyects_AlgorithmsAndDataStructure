@@ -1,4 +1,4 @@
-# Simulacion Atencion al usuario
+# Simulación Atención al usuario
   Programa que simula el proceso de antención al usuario de una universidad. 
   El usuario al ingresar saca un ticket para ser atendido, de los cuales se genera una cola (se inserta al último), generándose un numero correlativo. 
   Dentro de la cola pueden existir hasta tres tipos de usuarios: Padres(P), Docentes(D), Alumno(A).
