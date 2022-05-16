@@ -1,4 +1,4 @@
-# Equipos de futbol
+# Equipos de fútbol
 Aplicacion que permite guardar, , mostrar, modificar y eliminar la información de equipos de fútbol y sus jugadores.
 Usa archivos para leer datos al iniciar y guardarlos al finalizar.
 
