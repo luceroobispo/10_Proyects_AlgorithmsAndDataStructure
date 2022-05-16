@@ -5,7 +5,7 @@ Se uso programación orientada a objetos.
 
 ## Algoritmos y Estructura de datos
 
-1. Estructuras de datos implementadas: 
+1. Estructuras de datos: 
    - Pila y cola
    - Lista enlazada doble, lista enlazada simple, lista enlazada circular
    - Vector y arreglo
