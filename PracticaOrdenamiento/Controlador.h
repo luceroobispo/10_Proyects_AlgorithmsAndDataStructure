@@ -13,9 +13,8 @@ public:
 		cout << "2. Insertion Sort" << endl;
 		cout << "3. Selection Sort" << endl;
 		cout << "4. Shell Sort" << endl;
-		cout << "5. " << endl;
-		cout << "6. Fisher Yates" << endl;
-		cout << "7. Salir" << endl;
+		cout << "5. Fisher Yates" << endl;
+		cout << "6. Salir" << endl;
 	}
 
 	void swap(char a, char b) {
@@ -92,36 +91,8 @@ public:
 		cout << "\nDespues: " << endl;
 		mostrar(arr, n);
 	}
-
+	
 	void shellSort(char arr[], int n) {
-		cout << "Antes: " << endl;
-		mostrar(arr, n);
-		int i, j, k, intervalo = n / 2;
-		char temp;
-		while (intervalo > 0) {
-			for (i = intervalo; i <= n; i++) {
-				j = i - intervalo;
-				while (j >= 0) {
-					k = j + intervalo; //k = i
-					if (arr[j] <= arr[k]) { j = -1; } //termina el bucle
-					else {
-						temp = arr[j];
-						arr[j] = arr[k];
-						arr[k] = temp;
-						j -= intervalo;
-					}
-				}
-				mostrar(arr, n);
-			}
-			intervalo = intervalo / 2;
-			
-		}
-
-		cout << "\nDespues: " << endl;
-		mostrar(arr, n);
-	}
-
-	void shellSort2(char arr[], int n) {
 		cout << "Antes: " << endl;
 		mostrar(arr, n);
 		int intervalo = n / 2;
@@ -185,14 +156,13 @@ public:
 				selectionSort(arr,N);
 				break;
 			case 4:
-				shellSort2(arr,N);
+				shellSort(arr,N);
 				break;
 			case 5:
-				break;
-			case 6:
 				fisher_yates(arr,N);
 				break;
-			case 7: exit(0);
+			case 6: 
+				exit(0);
 				break;
 			default:
 				break;
