@@ -9,7 +9,7 @@ Se uso programación orientada a objetos.
    - Pila y cola
    - Lista enlazada doble, lista enlazada simple, lista enlazada circular
    - Vector y arreglo
-   -
+   
 2. Algoritmos:
    - Recursividad
    - Lambdas
