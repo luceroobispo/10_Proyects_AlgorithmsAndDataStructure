@@ -9,12 +9,23 @@ Se uso programación orientada a objetos.
    - Pila y cola
    - Lista enlazada doble, lista enlazada simple, lista enlazada circular
    - Vector y arreglo
+   - Arbol
+   - HashTable
    
 2. Algoritmos:
    - Recursividad
    - Lambdas
    - Fisher Yates
-   - Tipos de ordenamientos: bubble sort, insertion sort, selection sort, shell sort 
+   - quick select
+   
+3. Ordenamientos: 
+   - bubble sort
+   - insertion sort
+   - selection sort
+   - shell sort 
+   - heap sort
+   - merge sort
+   - quick sort
 
 ## Creditos
 Made with ❤️ by @luceroobispo
